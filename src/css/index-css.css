@@ -3,6 +3,7 @@
 	padding: 0;
 	margin: 0;
 }
+img {border: none;}
 .car{
 	width: 56px;
 	background: gray;
