@@ -1,0 +1,86 @@
+.carlist-menu{
+	width: 1230px;
+	/*height: 180px;*/
+	margin-left: 40px;
+	border: 1px solid gainsboro;
+}
+.carlist-menu th{
+	background: gainsboro;
+	height: 40px;
+}
+.carlist-tr1{
+	overflow: hidden;
+	
+	text-align: center;  
+	border: 1 solid gainsboro;
+}
+  
+.carlist-tr1 span{
+	display:inline-block;
+	width: 16px;
+	height: 22px;
+	background: gainsboro;
+}
+.carlist-tr1-1{
+	color: red;
+}
+.carlist-tr1 span:hover{
+	background: hotpink;
+	color: white;
+	cursor: pointer;
+}
+.h3-1{
+	margin-left: 40px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.h3-1 span{
+	color: red;
+}
+.settle{
+	background: hotpink;
+	color:white;
+	width: 120px;
+	height: 40px;
+	font-size: 24px;
+	border-radius:3px;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 1100px;
+	margin-bottom: 40px;
+}
+.settle:hover{
+	background: palevioletred;
+	cursor: pointer;
+}
+
+.addimg{
+	width: 100px;
+	height: 100px;
+}
+/*======================结算=======================================*/
+.sellup{
+	width: 1160px;
+	
+     /*background: red;*/
+     margin: 0 auto;
+}
+.address{
+	margin: 20px;
+	width: 200px;
+	height: 160px;
+	border: 1px solid gainsboro;
+	border-radius:5px ;
+	background: white;
+	text-align: center;
+	line-height: 160px;
+	color: gray;
+}
+.address span{
+	font-size: 20px;
+}
+.address:hover{
+	color: hotpink;
+	border: 1px solid hotpink;
+	cursor: pointer;
+}

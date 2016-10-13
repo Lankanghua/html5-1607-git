@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+ul{
+	list-style: none;
+}
+.shangpin{ 
+	width: 600px;
+	/*background: thistle;*/
+	height: 400px;
+	margin: 30px auto;
+	overflow: hidden;
+	border: 1px solid gainsboro;
+}
+
+.sore{
+	width: 160px;
+	height: 160px;
+	border: 1px solid gainsboro;
+	float: left;
+	margin-left: 50px;
+	margin-top: 100px;
+	border: 1px solid gainsboro;
+}
+.sore img{
+	width: 160px;
+	height: 160px;
+	position:absolute; 
+	opacity: ;
+}
+
+.shangpin ul{ 
+	list-style: none;
+	margin-left: 250px;
+	margin-top: 100px;
+}
+.shangpin ul input{
+	width:40px;
+	height: 18px;
+	text-align: center;
+	line-height: 18px;
+}
+ul li p{
+	margin-top: 10px;
+}
+.p-first{
+	color:darkgray;
+	font-size: 14px;
+}
+.p-last span{
+	
+	width: 14px;
+	height: 14px;
+	background: gainsboro;
+	opacity: 0.7;
+	
+	
+}
+.p-last span:hover{
+	background:gray;
+	cursor: pointer;
+}
+.p-car{
+	margin-top: 10px;
+
+}
+.p-car span{
+	display: inline-block;
+	width: 100px;
+	height: 30px;
+	font-size: 20px;
+	color: hotpink;
+    border: 2px solid hotpink;	
+    line-height:30px;
+    text-align: center; 
+    cursor: pointer;
+	
+}
+
+
+.p-car span a:hover,.p-car span:hover{
+	background: hotpink;
+	color: white;
+}
+
+
+.carlist-list{
+	width: 200px;
+	border: 1px solid gainsboro;
+	height: 700px;
+	position:fixed;
+	right:-255px;
+	background: white;
+	top: 0;
+	z-index: 1;
+	overflow-x: hidden;
+}
+.carlist-close{
+	width: 20px;
+	height: 20px;
+	margin-left:180px;
+	background: gray;
+	text-align: center;
+	line-height:20px;
+}
+
+.carlist-close:hover{
+	background: gainsboro;
+	cursor: pointer;
+	color: white;
+}
+
+.carlist-list span{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left:10px;
+	font-size: 14px;
+	color: gray;
+}
+
+
+.carlist span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: hotpink;
+	border-radius: 100px;
+	color: white;
+	margin-left: 18px;
+	margin-top: -10px;
+	display:none;
+	line-height: 20px;
+	text-align: center;
+}
+
+
+
+/*==================addclass================*/
+.add-div-car{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	color: white;
+	font-size: 14px;
+	border-radius:100px ;
+	background: hotpink;
+	/*margin-left: 10px;*/
+	text-align: center;
+	/*line-height: 3px;*/
+}
+
+.cloneimg{
+	width: 120px;
+	height: 120px;
+}
+ .carul{
+ 	margin-left: 20px;
+ }
+ .carul li{
+ 	margin-top: 20px;
+ 	border-bottom: 1px solid brown;
+ }
+ .carul li p{
+ 	margin-left: 20px;
+ }
+ 
+ .pay{
+ 	width: 60px; 
+ 	height: 25px;
+ 	background: hotpink;
+ 	border: 1px solid hotpink;
+ 	margin-left: 20px;
+ 	display: none;
+ }
+ 
+ .clear{
+ 	width: 60px;
+ 	height: 25px;
+ 	background: hotpink;
+ 	border: 1px solid hotpink;
+ 	margin-left: 20px;
+ 	margin-top: 10px;
+ 	display: none;
+ }
+
+/*=====================================================*/
+ .sellway{
+ 	width:1200px;
+ 	height: 120px;
+ 	background: white;
+ 	margin: 0 auto;
+ 	border: 1px solid gainsboro;
+ 	
+ }
+ .sellway ul {
+ 	list-style: none;
+ 	margin-top: 20px;
+ 	margin-left: -100px;
+ }
+.sellway ul li{
+	float: left; 
+	margin-left: 120px;
+}
+.sellway ul li img{
+	vertical-align:middle ;
+	
+}
+.sellway ul li span{
+	margin-left:20px;
+}
+/*================================================================================*/
+.picsay{
+	width: 1200px;
+	background: white;
+	margin: 0 auto;
+	/*overflow: hidden;*/
+}
+.u-1{
+	list-style: none;
+/*	border-bottom: 1px solid black;*/
+	height: 30px;
+
+}
+.u-1 li{
+
+	float: left;
+	height: 30px;
+	background:gainsboro;
+	text-align: center;
+    line-height:30px;	
+}
+.u-1 li:hover{
+	background:tan;
+	cursor: pointer;
+	/*border-top:2px solid goldenrod;*/
+}
+.u-1 li span{
+	margin: 10px;
+}
+
+.img-say{
+	
+	width: 1200px;
+	margin: 0 auto;
+	background:white;
+	display: none;
+}
+.img-1{
+	  margin-left: 225px;
+}
+.img-2{
+	
+	   margin-left: 220px;
+}
+/*==================================================================================================*/
+.sell-last{
+	margin-top: 20px;
+}
+.sell-last h2{
+	overflow: hidden;
+	margin:20px;
+}
+.sell-address{
+/*	background: red;*/
+	width: 1200px;
+	height: 250px;
+}
+.u-2{
+  list-style: none;
+   padding-top: 60px;
+  margin-left:-80px;
+}
+.u-2 li{
+	float: left;
+	margin-left:150px;
+}
+.p1{
+	margin-left: 10px;
+}
+.p1-2{
+	margin-left: -5px;
+}
+.p1-1{
+	margin-left: -45px;
+}
+.p1-3{
+	margin-left: -30px;
+}
+.img-3{
+    margin-left: 100px;
+    margin-top: -20px;
+}

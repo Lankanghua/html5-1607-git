@@ -1,0 +1,425 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+.car{
+	width: 56px;
+	background: gray;
+	height: 100%;
+	position: fixed;
+	right: 0;
+	opacity: 0.7;
+	z-index: 1;
+}
+.car div{
+	margin-top: 30px;
+}
+.carlist{
+	width:56px;
+	height: 150px;
+	
+}
+.carlist p{
+	padding: 20px;
+	width: 14px;
+}
+.myself{
+	width:56px;
+	height: 100px;
+	
+}
+.myself p{
+	padding: 20px;
+	width: 14px;
+}
+.indent{
+	width:56px;
+	height: 100px;
+	
+}
+.indent p{
+	padding: 20px;
+	width: 14px;
+}
+
+.collect{
+	width:56px;
+	height: 100px;
+	
+}
+.collect p{
+	padding: 20px;
+	width: 14px;
+}
+.gettop{
+	width:56px;
+	height: 100px;
+	
+}
+.gettop p{
+	padding: 20px;
+	width: 14px;
+	
+}
+.gettop:hover,.indent:hover,.myself:hover,.collect:hover,.carlist:hover{
+	background: palevioletred;
+	cursor: pointer;
+}
+/*==============================点击弹出车购物车==============================*/
+
+.carlist-list{
+	width: 200px;
+	border: 1px solid gainsboro;
+	height: 700px;
+	position:fixed;
+	right:-255px;
+	background: white;
+	top: 0;
+	z-index: 1;
+}
+.carlist-close{
+	width: 20px;
+	height: 20px;
+	margin-left:180px;
+	background: gray;
+	text-align: center;
+	line-height:20px;
+}
+
+.carlist-close:hover{
+	background: gainsboro;
+	cursor: pointer;
+	color: white;
+}
+
+.carlist-list span{
+	display: inline-block;
+	margin-top: 10px;
+	margin-left:10px;
+	font-size: 14px;
+	color: gray;
+}
+/*===========================head================================*/
+.head{
+	width: 100% ; 
+	height:25px;
+	background: pink;
+	overflow: hidden;
+}
+.head ul{
+	margin: 0;
+	padding: 0;
+	list-style:none;
+	padding-left: 50px;
+}
+.head ul li{
+	float: left;
+	width: 40px;
+	height: 24px;
+	font-size: 12px;
+	color: white;
+	margin: 3px;
+	margin-left: 20px;
+}
+.head ul li a{
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	
+}
+.head ul li a:hover{
+	color: red;
+}
+ /*.addli{
+ 	margin-left: 20px;
+ }*/
+
+
+
+/*==============================================logo=====================*/
+.searchbox{
+            width: 100%;
+            height: 80px;
+            /*border: 1px solid black;*/
+            overflow: hidden;
+            /*background: brown;*/
+}
+.searchbox img{
+	margin-left:60px;
+	margin-top:18px ;
+	float: left;
+}
+
+.searchbox .search{
+margin-left: 320px;
+margin-top:20px;
+width: 300px;
+height: 35px;
+border-radius:50px ;
+border: 1px solid pink;  
+font-size: 16px;
+/*border: none;*/
+}
+.searchbox .searchbtn{
+	width: 60px;
+	height: 20px;
+     font-size: 24px;
+	/*margin-right: 30px;*/
+	/*background: yellow;*/
+    margin-left:950px ;
+    margin-top:-32px;
+}
+
+.searchbox .searchbtn a{
+    text-decoration: none;
+    color: pink;
+	
+}
+/*=============================autoplay=======================*/
+.logo{
+	border: 1px solid gainsboro;
+	float: left;
+	width: 100%;
+	height: 40px;
+	overflow: hidden;
+	/*border-bottom:1px solid gainsboro;*/
+}
+.list{
+	margin-left:220px ;
+	list-style: none;
+	margin-top: 10px;
+}
+.list li{
+	float: left;
+	margin-left: 20px;
+	cursor: pointer;
+}
+.list li:hover{
+	color:crimson;
+}
+.lunbo{
+	width: 100%;
+	height: 480px;
+	position: relative;
+	overflow: hidden;
+}
+.lunbo img{
+	width: 1300px;
+	height: 480px;
+	display: block;
+}
+.lunbo ul{
+	list-style: none;
+	position: absolute;
+
+	
+}
+.photoshow{
+	width: 1300px;
+	height: 480px;
+	background: red;
+	margin: 0 auto;
+}
+/*============================nav============================*/
+.nav{
+	overflow: hidden;
+	width: 100%;
+	/*background:gold;*/
+}
+.navlist{
+	width: 1200px;
+	margin: 0 auto;
+	/*background: forestgreen;*/
+	/*float: left;*/overflow: hidden;
+}
+.add-div{
+	width: 340px;
+	height: 300px;
+	border: 1px solid gainsboro;
+	float: left;
+	margin-left:37px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	border-radius: 5px; 
+	-webkit-transition:box-shadow 0ms ease-in
+}
+.add-img{
+	width:150px;
+	height: 150px;
+}
+.add-div:hover{
+	border: 1px solid  gray;
+	background:wheat;
+	-webkit-transition: ease-in;
+}
+.add-ul{
+	list-style: none; 
+   margin-top: 10px;
+}
+.add-ul li img{
+	margin-top: 10px;
+	margin-left: 20px;
+}
+.add-ul li p{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.carbtn{
+	width: 85px;
+	height: 20px;
+	background: pink;
+	border-radius: 5px;
+	margin-left: 175px;
+	margin-top: 25px;
+	cursor: pointer;
+}
+.carbtn:hover{
+	color: red;
+} 
+/*========================foot======================*/
+.foot{
+	width: 100%;
+	/*background: darkkhaki;*/
+	overflow:hidden;
+	/*border: 1px solid green;*/
+}
+.foot-head{
+	background: gainsboro;
+	width: 100%;
+	height:180px;
+}
+.foot-head ul{
+	float: left;
+	list-style: none;
+	
+	margin-top: 30px;
+	margin-left: -150px;
+}
+.foot-head ul li{
+	float: left;
+	margin-left: 250px;
+}
+.foot-head ul li span{
+	font-size: 22px;
+}
+.foot-head ul li div{
+	margin-left: -18px;
+	margin-top: 10px;
+}
+.about{
+	width: 100%;
+	background: white;
+	float: left;
+	border-bottom: 1px solid gainsboro;
+}
+.about-left{
+	width: 250px;
+	height: 300px;
+	background: white;
+	margin-left: 100px;
+	float: left;
+}
+.szjpic{
+	 margin-left: 60px;
+	padding-top: 30px;
+}
+
+.about-left p{
+	/*background: white;*/
+	padding-left: 65px;
+	
+}
+.about-left ul{
+	list-style: none;
+	 float: left;
+	 padding-left: 25px;
+	 padding-top: 10px;
+}
+.about-left li{
+	 float: left;
+	 margin-left: 10px;
+	 
+}
+
+.about-rigth{
+	width: 900px;
+	/*background: cornflowerblue;*/
+	float: left;
+}
+
+.about-rigth ul{
+	float: left;
+	list-style: none;
+	margin-left:90px;
+	margin-top:20px;
+	border-left: 1px solid gainsboro;
+}
+.about-rigth ul li{
+	 margin-top: 20px;
+	 margin-left: 25px;
+}
+.about-rigth ul li p:hover{
+	color: hotpink;
+	cursor: pointer;
+}
+.gm{
+	overflow: hidden;
+	width: 100%;
+	height:100px;
+	border-bottom: 1px solid gainsboro;
+}
+.gm .callgm{
+	width: 100px;
+	height: 30px;
+	margin: 20px auto;
+	
+	}
+.callway{
+	width: 800px;
+   margin: 10px auto;
+   
+	
+}
+.callway ul{
+	list-style: none;
+	overflow: hidden;
+}
+.callway ul li{
+	float: left;
+	margin-left: 30px;
+	font-size: 14px;
+}
+.footlast{
+	width: 100%;
+	height: 40px;
+}
+
+.footlast ul{
+	list-style: none;
+	margin-left: 50px;
+	margin-top: 24px;
+}
+.footlast ul li{
+
+	float: left;
+	margin-left: 80px;
+	color: darkgray;
+	display: inline-block;
+	
+}
+.footlast ul li img{
+	vertical-align:middle ;
+	/*display: inline-block;*/
+	width: 30px;
+	/*height: 30px;*/
+}
+.footlast ul li span{
+	height: 30px;
+	/*display: inline-block;*/
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	line-height: 30px;
+	
+}
